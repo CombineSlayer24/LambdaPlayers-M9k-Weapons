@@ -1,6 +1,6 @@
 # LambdaPlayers-M9k-Weapons
 
-# This pack is very early work in progress, many weapons are still missing
+# NOTICE! This pack is very early work in progress, many weapons are still missing
 
 Adds M9K weapons for LambdaPlayers to use.
 M9K is not required as content is packed in.
