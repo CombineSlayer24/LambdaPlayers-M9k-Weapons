@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$baseTexture" "lambdaplayers\models\m9k\small_arms\m9\slide"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "lambdaplayers\models\m9k\small_arms\m9\slide_ref"
+}

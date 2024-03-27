@@ -1,0 +1,20 @@
+VertexLitGeneric
+{
+	"$baseTexture" "lambdaplayers\models\m9k\small_arms\uzi\uzidiffuse"
+	"$bumpmap" "lambdaplayers\models\m9k\small_arms\uzi\uzinormal"
+	"$phongexponenttexture" "lambdaplayers\models\m9k\small_arms\uzi\uzigloss"
+
+	"$phong" "1"
+   	"$phongexponent" "7"
+	"$phongboost"   "0.4"
+	"$phongfresnelranges" "[10 10 10]"
+	"$halflambert" "1"
+	
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast" "1"
+	"$envmapsaturation" 0.1
+	"$envmaptint" "[0.05 0.05 0.05]"
+	
+}
+

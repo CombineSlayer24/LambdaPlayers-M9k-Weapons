@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "lambdaplayers\models\m9k\small_arms\w_sw627\baked"
+	"$bumpmap" "lambdaplayers\models\m9k\small_arms\w_sw627\baked_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+ 	"$phong" "1"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[.2 .4 1]"
+	"$phongalbedotint" "1"
+	"$halflambert" "1"
+}

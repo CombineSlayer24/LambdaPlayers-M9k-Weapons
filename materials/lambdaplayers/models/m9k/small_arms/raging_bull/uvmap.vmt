@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "lambdaplayers\models\m9k\small_arms\raging_bull\uvmap"
+	"$envmap" 				"env_cubemap"	
+	"$envmapmask" "lambdaplayers\models\m9k\small_arms\raging_bull\uvmapref"
+	"$nocull" "1"
+}

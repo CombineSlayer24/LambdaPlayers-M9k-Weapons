@@ -1,0 +1,15 @@
+VertexLitGeneric
+
+{
+	"$baseTexture" "lambdaplayers\models\m9k\small_arms\sw500\saw500_diffuse"
+	"$bumpmap" "lambdaplayers\models\m9k\small_arms\sw500\saw500_normal"
+	
+	"$normalmapalphaenvmapmask" "1"
+
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "55"
+	"$phongfresnelranges" "[1 9 9]"
+	"$phongexponenttexture" "lambdaplayers\models\m9k\small_arms\sw500\sw500_spec"
+	"$phongwarptexture" 	"lambdaplayers\models\m9k\small_arms\sw500\sw500_irid"
+}
