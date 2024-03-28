@@ -93,3 +93,29 @@ function LAMBDA_M9K:FireWeapon( lambda, weapon, target )
 	fireBulletTbl.TracerName = "Tracer"
 	weapon:FireBullets( fireBulletTbl )
 end
+
+-- Doesn't seem to work with some guns (Glock auto fire doesn't fire fast when changed)
+--[[ function LAMBDA_M9K:SwitchFireMode( self, wepent, holdTypes )
+    local isFull = wepent.FireMode == "Full"
+    local fireMode = isFull and "Semi" or "Full"
+	local useAnim = self:LookupSequence( "flinch_shoulder_l" )
+    local defaultHoldType = self.l_HoldType
+
+	local fireRateTbl = { }
+	local fireRateTbl_Semi = { }
+
+	-- If holdTypes param is blank, it will use the default set self.l_HoldType
+    holdTypes = holdTypes or { semi = defaultHoldType, full = defaultHoldType }
+    
+	local holdType = isFull and holdTypes.semi or holdTypes.full
+
+    wepent.M9KData.RateOfFire = isFull and fireRateTbl_Semi or fireRateTbl
+    wepent.FireMode = fireMode
+    self.l_HoldType = holdType
+
+    wepent:EmitSound( "Weapon_AR2.Empty", 70 )
+    PrintMessage( HUD_PRINTTALK, "Switched to " .. fireMode .. " FireMode" )
+
+	-- Simulate switching fire modes
+    if useAnim > 0 then self:AddGestureSequence( useAnim, true ) end
+end ]]

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$baseTexture" "lambdaplayers\models\m9k\small_arms\tec9\mag"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "lambdaplayers\models\m9k\small_arms\tec9\mag_norm"
+}

@@ -1,8 +1,9 @@
-local fireDamageTbl = { 8, 20 }
-local fireRateTbl = { 0.096, 0.384 }
-local fireRateTbl_Semi = { 0.25, 0.6 }
+local fireDamageTbl = { 7, 20 }
+local fireRateTbl = { 0.072, 0.48 }
+local fireRateTbl_Semi = { 0.3, 0.9 }
 local deploySnds = {
-	{ 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" }
+	{ 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" },
+	{ 0.5, "lambdaplayers/weapons/m9k/small_arms/mp7/charginghandle_rack.mp3" }
 }
 
 local function SwitchFireMode( self, wepent )
@@ -24,33 +25,33 @@ local function SwitchFireMode( self, wepent )
 end
 
 table.Merge( _LAMBDAPLAYERSWEAPONS, {
-	m9k_smg_uzi = {
-		model = "models/lambdaplayers/weapons/m9k/small_arms/w_uzi.mdl",
+	m9k_smg_mp7 = {
+		model = "models/lambdaplayers/weapons/m9k/small_arms/mp7_silenced.mdl",
 		origin = "M9K",
-		prettyname = "Uzi",
-		holdtype = "ar2",
-		killicon = "lambdaplayers/killicons/m9k_uzi",
+		prettyname = "HK-MP7 Suppressed",
+		holdtype = "smg",
+		killicon = "lambdaplayers/killicons/m9k_mp7",
 		bonemerge = true,
 
-		clip = 32,
+		clip = 30,
 		islethal = true,
-		attackrange = 1800,
-		keepdistance = 700,
+		attackrange = 1750,
+		keepdistance = 500,
 
 		reloadtime = 2,
 		reloadanim = ACT_HL2MP_GESTURE_RELOAD_SMG1,
 		reloadanimspeed = 0.75,
 		reloadsounds = { 
-			{ 0.336, "lambdaplayers/weapons/m9k/small_arms/uzi/clipout.mp3" },
-			{ 1.2, "lambdaplayers/weapons/m9k/small_arms/uzi/clipin.mp3" },
-			{ 1.6, "lambdaplayers/weapons/m9k/small_arms/uzi/boltpull.mp3" }
+			{ 0.336, "lambdaplayers/weapons/m9k/small_arms/mp7/clipout.mp3" },
+			{ 1.2, "lambdaplayers/weapons/m9k/small_arms/mp7/clipin.mp3" },
+			{ 1.6, "lambdaplayers/weapons/m9k/small_arms/mp7/charginghandle_rack.mp3" }
 		},
 
 		OnDeploy = function( self, wepent )
 			wepent.M9KData = {}
 			wepent.M9KData.Damage = fireDamageTbl
-			wepent.M9KData.Spread = 0.05
-			wepent.M9KData.Sound = "lambdaplayers/weapons/m9k/small_arms/uzi/fire.wav"
+			wepent.M9KData.Spread = 0.075
+			wepent.M9KData.Sound = "lambdaplayers/weapons/m9k/small_arms/mp7/fire.wav"
 			wepent.M9KData.RateOfFire = fireRateTbl
 			wepent.M9KData.Animation = ACT_HL2MP_GESTURE_RANGE_ATTACK_SMG1
 			wepent.M9KData.DeploySound = deploySnds
