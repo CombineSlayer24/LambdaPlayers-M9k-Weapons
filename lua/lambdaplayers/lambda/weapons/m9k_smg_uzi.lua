@@ -17,7 +17,7 @@ local function SwitchFireMode( self, wepent )
 
 	wepent:EmitSound( "Weapon_AR2.Empty", 70 )
 
-	PrintMessage( HUD_PRINTTALK, "Switched to " .. fireMode .. " FireMode" )
+	--PrintMessage( HUD_PRINTTALK, "Switched to " .. fireMode .. " FireMode" )
 
 	-- Simulate switching fire modes
 	if useAnim > 0 then self:AddGestureSequence( useAnim, true ) end
