@@ -17,7 +17,7 @@ local function SwitchFireMode( self, wepent )
     wepent:EmitSound( "Weapon_AR2.Empty", 70 )
     
 	self.l_HoldType = holdType
-    PrintMessage( HUD_PRINTTALK, "Switched to " .. fireMode .. " FireMode" )
+   	--PrintMessage( HUD_PRINTTALK, "Switched to " .. fireMode .. " FireMode" )
 
     if useAnim > 0 then self:AddGestureSequence( useAnim, true ) end
 end
@@ -57,7 +57,7 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 			local isSemi = LambdaRNG( 1, 3 ) == 1
 			wepent.M9KData.RateOfFire = isSemi and fireRateTbl_Semi or fireRateTbl
 			wepent.FireMode = isSemi and "Semi" or "Full"
-			PrintMessage( HUD_PRINTTALK, "Spawned with " .. wepent.FireMode .. " FireMode" )
+			--PrintMessage( HUD_PRINTTALK, "Spawned with " .. wepent.FireMode .. " FireMode" )
 
 			LAMBDA_M9K:InitializeWeapon( self, wepent )
 		end,
