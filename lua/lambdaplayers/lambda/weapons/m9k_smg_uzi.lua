@@ -25,7 +25,7 @@ end
 
 table.Merge( _LAMBDAPLAYERSWEAPONS, {
 	m9k_smg_uzi = {
-		model = "models/lambdaplayers/weapons/m9k/small_arms/w_uzi.mdl",
+		model = "models/lambdaplayers/weapons/m9k/small_arms/uzi.mdl",
 		origin = "M9K",
 		prettyname = "Uzi",
 		holdtype = "ar2",
