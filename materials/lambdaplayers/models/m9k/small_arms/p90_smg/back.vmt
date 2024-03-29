@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$baseTexture" "lambdaplayers\models\m9k\small_arms\p90_smg\back"
+	"$bumpmap" "lambdaplayers\models\m9k\small_arms\p90_smg\back norm"
+ 	"$envmap" "env_cubemap"
+   	"$normalmapalphaenvmapmask" 1
+}

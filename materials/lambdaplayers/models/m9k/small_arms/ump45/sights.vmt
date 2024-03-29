@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "lambdaplayers\models\m9k\small_arms\ump45\sights"
+	"$bumpmap" "lambdaplayers\models\m9k\small_arms\ump45\sights norm"
+}

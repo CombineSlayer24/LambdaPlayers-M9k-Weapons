@@ -9,7 +9,7 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 	m9k_pistol_model3 = {
 		model = "models/lambdaplayers/weapons/m9k/small_arms/model3.mdl",
 		origin = "M9K",
-		prettyname = "Smith & Wesson Model 3 Russian",
+		prettyname = "S&W Model 3 Russian",
 		holdtype = "revolver",
 		killicon = "lambdaplayers/killicons/m9k_model3",
 		bonemerge = true,

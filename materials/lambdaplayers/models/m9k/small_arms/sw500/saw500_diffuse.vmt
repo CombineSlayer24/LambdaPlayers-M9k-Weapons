@@ -1,5 +1,4 @@
 VertexLitGeneric
-
 {
 	"$baseTexture" "lambdaplayers\models\m9k\small_arms\sw500\saw500_diffuse"
 	"$bumpmap" "lambdaplayers\models\m9k\small_arms\sw500\saw500_normal"

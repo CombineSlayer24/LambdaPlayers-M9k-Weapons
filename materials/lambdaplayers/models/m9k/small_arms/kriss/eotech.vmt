@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "lambdaplayers\models\m9k\small_arms\kriss\eotech"
+	"$bumpmap" "lambdaplayers\models\m9k\small_arms\kriss\eotech_normal"
+	"$phong" "0"
+}

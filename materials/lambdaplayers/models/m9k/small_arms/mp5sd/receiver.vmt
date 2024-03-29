@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "lambdaplayers\models\m9k\small_arms\mp5sd\receiver"
+	"$bumpmap" "lambdaplayers\models\m9k\small_arms\mp5sd\receiver_norm"
+	"$nocull" "1"
+}

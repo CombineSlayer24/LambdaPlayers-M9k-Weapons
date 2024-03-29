@@ -59,6 +59,8 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 			wepent.FireMode = isSemi and "Semi" or "Full"
 			--PrintMessage( HUD_PRINTTALK, "Spawned with " .. wepent.FireMode .. " FireMode" )
 
+			if isSemi then self.l_HoldType = "revolver" else self.l_HoldType = "pistol" end
+
 			LAMBDA_M9K:InitializeWeapon( self, wepent )
 		end,
 

@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "lambdaplayers\models\m9k\small_arms\tmp9\mp9_silencer"
+	"$envmap" 	"env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint"		"[0.02 0.02 0.02]"
+	"$phong" 		"1"
+	"$phongtint"		"[0.7 0.9 1]"
+	"$phongexponent" 		"20"
+	"$phongboost"		"1"
+	"$phongfresnelranges"	"[1 4 5]"
+	"$halflambert" 		"1"
+}
