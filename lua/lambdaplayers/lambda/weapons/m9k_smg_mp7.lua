@@ -27,7 +27,7 @@ end
 table.Merge( _LAMBDAPLAYERSWEAPONS, {
 	m9k_smg_mp7 = {
 		model = "models/lambdaplayers/weapons/m9k/small_arms/mp7_silenced.mdl",
-		origin = "M9K",
+		origin = "M9K - Sub-Machine Guns",
 		prettyname = "HK-MP7 Suppressed",
 		holdtype = "smg",
 		killicon = "lambdaplayers/killicons/m9k_mp7",

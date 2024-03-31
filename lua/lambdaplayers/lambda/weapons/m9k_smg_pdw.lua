@@ -8,7 +8,7 @@ local deploySnds = {
 table.Merge( _LAMBDAPLAYERSWEAPONS, {
 	m9k_smg_pdw = {
 		model = "models/lambdaplayers/weapons/m9k/small_arms/kac_pdw.mdl",
-		origin = "M9K",
+		origin = "M9K - Sub-Machine Guns",
 		prettyname = "KAC PDW",
 		holdtype = "smg",
 		killicon = "lambdaplayers/killicons/m9k_kacpdw",
@@ -17,7 +17,7 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 		clip = 30,
 		islethal = true,
 		attackrange = 1600,
-		keepdistance = 500,
+		keepdistance = 525,
 
 		reloadtime = 2.4,
 		reloadanim = ACT_HL2MP_GESTURE_RELOAD_SMG1,

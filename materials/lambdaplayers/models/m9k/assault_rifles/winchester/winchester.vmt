@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "lambdaplayers\models\m9k\assault_rifles\winchester\winchester"
+	"$bumpmap" "lambdaplayers\models\m9k\assault_rifles\winchester\winchester_normal"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+}

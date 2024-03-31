@@ -8,7 +8,7 @@ local deploySnds = {
 table.Merge( _LAMBDAPLAYERSWEAPONS, {
 	m9k_pistol_ragingb_scoped = {
 		model = "models/lambdaplayers/weapons/m9k/small_arms/ragingbull_scope.mdl",
-		origin = "M9K",
+		origin = "M9K - Pistols",
 		prettyname = "Raging Bull Scoped",
 		holdtype = "revolver",
 		killicon = "lambdaplayers/killicons/m9k_rbs",
@@ -16,7 +16,7 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 
 		clip = 6,
 		islethal = true,
-		attackrange = 2000,
+		attackrange = 2200,
 		keepdistance = 640,
 
 		reloadtime = 3.2,

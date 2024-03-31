@@ -1,4 +1,4 @@
-local fireDamageTbl = { 9, 15 }
+local fireDamageTbl = { 7, 14 }
 local fireRateTbl = { 0.275, 0.8 }
 local deploySnds = {
 	{ 0, "lambdaplayers/weapons/m9k/small_arms/m1911/draw.mp3" }
@@ -7,7 +7,7 @@ local deploySnds = {
 table.Merge( _LAMBDAPLAYERSWEAPONS, {
 	m9k_pistol_m1911 = {
 		model = "models/lambdaplayers/weapons/m9k/small_arms/m1911.mdl",
-		origin = "M9K",
+		origin = "M9K - Pistols",
 		prettyname = "M1911",
 		holdtype = "pistol",
 		killicon = "lambdaplayers/killicons/m9k_m1911",
@@ -16,7 +16,7 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 		clip = 7,
 		islethal = true,
 		attackrange = 1500,
-		keepdistance = 600,
+		keepdistance = 400,
 
 		reloadtime = 1.4,
 		reloadanim = ACT_HL2MP_GESTURE_RELOAD_PISTOL,

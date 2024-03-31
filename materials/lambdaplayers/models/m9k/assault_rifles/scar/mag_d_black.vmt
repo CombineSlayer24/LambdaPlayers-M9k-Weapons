@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "lambdaplayers\models\m9k\assault_rifles\scar\bull\tan\mag_diff"
+	"$bumpmap" "lambdaplayers\models\m9k\assault_rifles\scar\bull\tan\mag_bump"
+
+     "$envmaptint" "[0.1 0.1 0.1]"
+     "$normalmapalphaenvmapmask" 1
+     "$envmapfresnel" "0.8"
+
+     "$phong" 1
+     
+	"$phongexponenttexture" "lambdaplayers\models\m9k\assault_rifles\scar\bull\tan\mag_exponent"
+     "$phongboost" 6
+     "$phongfresnelranges" "[0.1 0.6 1.1]"
+     "$phongalbedotint" "1"
+     "$phongalbedoboost" "38"
+
+     "$rimlight" "1"
+     "$rimlightexponent" "88"
+     "$rimlightboost""1.8"
+     "$rimmask" "1"
+}

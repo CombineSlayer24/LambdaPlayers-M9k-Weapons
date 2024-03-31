@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "lambdaplayers\models\m9k\assault_rifles\scar\bull\eotech_diff"
+	"$bumpmap" "lambdaplayers\models\m9k\assault_rifles\scar\bull\eotech_bump"
+     "$translucent" 1
+}

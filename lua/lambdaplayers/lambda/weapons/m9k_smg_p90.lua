@@ -8,7 +8,7 @@ local deploySnds = {
 table.Merge( _LAMBDAPLAYERSWEAPONS, {
 	m9k_smg_p90 = {
 		model = "models/lambdaplayers/weapons/m9k/small_arms/p90.mdl",
-		origin = "M9K",
+		origin = "M9K - Sub-Machine Guns",
 		prettyname = "FN P90",
 		holdtype = "rpg",
 		killicon = "lambdaplayers/killicons/m9k_p90",

@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "lambdaplayers\models\m9k\assault_rifles\scar\bull\eotech_diff"
+	"$bumpmap" "lambdaplayers\models\m9k\assault_rifles\scar\bull\eotech_bump"
+
+     "$envmaptint" "[0.1 0.1 0.1]"
+     "$normalmapalphaenvmapmask" 1
+     "$envmapfresnel" "0.7"
+
+     "$phong" 1
+
+     "$phongexponenttexture" "lambdaplayers\models\m9k\assault_rifles\scar\bull\eotech_exponent"
+     "$phongboost" 6
+     "$phongfresnelranges" "[0.1 0.5 1.1]"
+     "$phongalbedotint" "1"
+     "$phongalbedoboost" "38"
+
+     "$rimlight" "1"
+     "$rimlightexponent" "88"
+     "$rimlightboost""1.8"
+     "$rimmask" "1"
+}

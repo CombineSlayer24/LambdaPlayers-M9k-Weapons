@@ -9,7 +9,7 @@ local deploySnds = {
 table.Merge( _LAMBDAPLAYERSWEAPONS, {
 	m9k_smg_sten = {
 		model = "models/lambdaplayers/weapons/m9k/small_arms/sten.mdl",
-		origin = "M9K",
+		origin = "M9K - Sub-Machine Guns",
 		prettyname = "Sten",
 		holdtype = "ar2",
 		killicon = "lambdaplayers/killicons/m9k_sten",
@@ -18,7 +18,7 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 		clip = 32,
 		islethal = true,
 		attackrange = 1600,
-		keepdistance = 600,
+		keepdistance = 500,
 
 		reloadtime = 2.4,
 		reloadanim = ACT_HL2MP_GESTURE_RELOAD_SMG1,

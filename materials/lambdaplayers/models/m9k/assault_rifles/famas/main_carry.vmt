@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "lambdaplayers\models\m9k\assault_rifles\famas\main_carry"
+	"$bumpmap" "lambdaplayers\models\m9k\assault_rifles\famas\main_carry_normal"
+}

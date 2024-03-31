@@ -1,4 +1,4 @@
-local fireDamageTbl = { 10, 14 }
+local fireDamageTbl = { 8, 13 }
 local fireRateTbl = { 0.32, 0.96 }
 local deploySnds = {
 	{ 0, "lambdaplayers/weapons/m9k/small_arms/hk45/draw.mp3" },
@@ -9,7 +9,7 @@ local deploySnds = {
 table.Merge( _LAMBDAPLAYERSWEAPONS, {
 	m9k_pistol_hk45 = {
 		model = "models/lambdaplayers/weapons/m9k/small_arms/hk45c.mdl",
-		origin = "M9K",
+		origin = "M9K - Pistols",
 		prettyname = "HK-45",
 		holdtype = "revolver",
 		killicon = "lambdaplayers/killicons/m9k_hk45",

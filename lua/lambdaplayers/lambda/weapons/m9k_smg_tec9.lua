@@ -28,7 +28,7 @@ end
 table.Merge( _LAMBDAPLAYERSWEAPONS, {
 	m9k_smg_tec9 = {
 		model = "models/lambdaplayers/weapons/m9k/small_arms/tec9.mdl",
-		origin = "M9K",
+		origin = "M9K - Sub-Machine Guns",
 		prettyname = "TEC-9",
 		--holdtype = "pistol",
 		killicon = "lambdaplayers/killicons/m9k_tec9",
@@ -37,7 +37,7 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 		clip = 32,
 		islethal = true,
 		attackrange = 2000,
-		keepdistance = 500,
+		keepdistance = 400,
 
 		reloadtime = 2.5,
 		reloadanim = ACT_HL2MP_GESTURE_RELOAD_AR2,

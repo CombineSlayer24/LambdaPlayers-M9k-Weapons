@@ -25,7 +25,7 @@ end
 table.Merge( _LAMBDAPLAYERSWEAPONS, {
 	m9k_pistol_glock = {
 		model = "models/lambdaplayers/weapons/m9k/small_arms/glock17.mdl",
-		origin = "M9K",
+		origin = "M9K - Pistols",
 		prettyname = "Auto Glock-17",
 		--holdtype = "pistol",
 		killicon = "lambdaplayers/killicons/m9k_glock",

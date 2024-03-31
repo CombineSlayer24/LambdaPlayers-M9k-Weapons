@@ -1,0 +1,5 @@
+VertexlitGeneric
+{
+	"$baseTexture" "lambdaplayers\models\m9k\small_arms\usc\uscmap1"
+	"$bumpmap" "lambdaplayers\models\m9k\small_arms\usc\uscmap1_normal"
+}
