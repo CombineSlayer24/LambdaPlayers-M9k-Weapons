@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "lambdaplayers\models\m9k\assault_rifles\l85a2\Mag_Color2"
+	"$bumpmap" "lambdaplayers\models\m9k\assault_rifles\l85a2\Mag_Color2_normal"
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[1 8 6]"
+	"$phongexponenttexture" "lambdaplayers\models\m9k\assault_rifles\l85a2\Mag_Color2_spec"
+	"$phongalbedotint" "1"
+	"$halflambert" "1"
+}

@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$baseTexture" "lambdaplayers\models\m9k\heavy\spas12\grips"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "lambdaplayers\models\m9k\heavy\spas12\grips_ref"
+}
