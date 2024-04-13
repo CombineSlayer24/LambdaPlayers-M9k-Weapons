@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"lambdaplayers\models\m9k\heavy\aw50\G22_base"
+	"$envmap" "env_cubemap"
+	"$envmapmask" 	"lambdaplayers\models\m9k\heavy\aw50\G22_base_ref"
+}

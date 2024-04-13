@@ -1,7 +1,7 @@
 local fireDamageTbl = { 12, 27 }
 local fireRateTbl = { 0.07, 0.28 }
 local deploySnds = {
-	{ 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" },
+	{ 0, "lambdaplayers/weapons/m9k/assault_rifles/draw_pullout_rifle.mp3" },
 	{ 0.4, "lambdaplayers/weapons/m9k/assault_rifles/ak74/boltrack.mp3" }
 }
 
@@ -33,7 +33,7 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 		OnDeploy = function( self, wepent )
 			wepent.M9KData = {}
 			wepent.M9KData.Damage = fireDamageTbl
-			wepent.M9KData.Spread = 0.096
+			wepent.M9KData.Spread = 0.061
 			wepent.M9KData.Sound = fireSndTbl
 			wepent.M9KData.RateOfFire = fireRateTbl
 			wepent.M9KData.Animation = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2

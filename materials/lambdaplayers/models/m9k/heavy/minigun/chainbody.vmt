@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"lambdaplayers\models\m9k\heavy\minigun\chainbody"
+	"$envmap" "env_cubemap"
+	"$envmapmask" 	"lambdaplayers\models\m9k\heavy\minigun\chainbody_ref"
+        "$model" 1
+}

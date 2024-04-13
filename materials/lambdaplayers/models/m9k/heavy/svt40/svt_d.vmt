@@ -1,0 +1,15 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" 	"lambdaplayers\models\m9k\heavy\svt40\svt_diff"
+	"$bumpmap" 	"lambdaplayers\models\m9k\heavy\svt40\svt_n_alpha"
+	"$nocull"	"1"
+
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[.1 .1 .1]"
+	"$envmapcontrast" ".4"
+	
+	"$phong" 	"1"
+	"$phongexponent" 	"10"
+	"$phongboost"	 "1"
+	"$phongfresnelranges" "[1 2 4]"	
+}

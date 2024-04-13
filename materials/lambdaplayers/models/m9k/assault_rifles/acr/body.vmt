@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "lambdaplayers\models\m9k\assault_rifles\acr\body"
+	"$bumpmap" "lambdaplayers\models\m9k\assault_rifles\acr\body_normal"
+	"$nocull"	"1"
+
+	"$rimlight"               "1"
+	"$rimlightexponent"       "12" 
+	"$rimlightboost"          ".2"
+}

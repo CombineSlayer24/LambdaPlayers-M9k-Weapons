@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	"$baseTexture" 	"lambdaplayers\models\m9k\heavy\usas12\usas-3"
+	"$bumpmap" 	"lambdaplayers\models\m9k\heavy\usas12\usas-3_normal"
+	"$nocull" "1"
+	"$normalmapalphaenvmapmask" "1"
+	"$phong" 		"1"
+	"$phongexponent" 	"30"
+	"$phongboost" "0.8"
+	"$phongfresnelranges" "[2 5 9]"
+	"$phongalbedotint" "1"
+}

@@ -19,7 +19,7 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 
 		clip = 8,
 		islethal = true,
-		attackrange = 1200,
+		attackrange = 1350,
 		keepdistance = 400,
 
 		OnReload = function( self, wepent )

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$baseTexture" 	"lambdaplayers\models\m9k\heavy\Trench\wood_dark"
+	"$bumpmap" 	"lambdaplayers\models\m9k\heavy\Trench\wood_dark_normal"
+}

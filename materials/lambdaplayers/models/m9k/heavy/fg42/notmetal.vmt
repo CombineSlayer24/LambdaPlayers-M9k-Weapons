@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"lambdaplayers\models\m9k\heavy\fg42\notmetal"
+	"$bumpmap" 	"lambdaplayers\models\m9k\heavy\fg42\notmetal_normal"
+}

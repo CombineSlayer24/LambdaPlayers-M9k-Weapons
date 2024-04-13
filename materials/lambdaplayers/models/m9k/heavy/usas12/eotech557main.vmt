@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"lambdaplayers\models\m9k\heavy\usas12\Eotech557Main"
+	"$bumpmap" 	"lambdaplayers\models\m9k\heavy\usas12\Eotech557Main_nor"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmaptint" "[ 0.6 0.6 0.6 ]"
+}

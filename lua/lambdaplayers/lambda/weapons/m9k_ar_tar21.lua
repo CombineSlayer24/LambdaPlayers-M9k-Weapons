@@ -1,7 +1,7 @@
 local fireDamageTbl = { 7, 25 }
 local fireRateTbl = { 0.073, 0.25 }
 local deploySnds = {
-	{ 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" },
+	{ 0, "lambdaplayers/weapons/m9k/assault_rifles/draw_pullout_rifle.mp3" },
 	{ 0.52, "lambdaplayers/weapons/m9k/assault_rifles/tar21/boltrack.mp3" }
 }
 

@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"lambdaplayers\models\m9k\heavy\usas12\Eotech557"
+	"$envmap" "env_cubemap"
+	"%compilewater" 1
+	"$surfaceprop" "water"
+	"$additive" "1"
+	"$envmaptint" "[ 0.3 0.3 0.3 ]"
+	"$normalmapalphaenvmapmask" 1
+	"$selfillum" 1
+}
+

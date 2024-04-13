@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" 	"lambdaplayers\models\m9k\heavy\m60\Body2"
+	"$bumpmap" 		"lambdaplayers\models\m9k\heavy\m60\Body2_Norm"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .64 .64 .64 ]"
+	"$normalmapalphaenvmapmask" "1"
+}

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$baseTexture" 	"lambdaplayers\models\m9k\heavy\Trench\TRENCHGU"
+	"$bumpmap" 	"lambdaplayers\models\m9k\heavy\Trench\TRENCHGU norm"
+}

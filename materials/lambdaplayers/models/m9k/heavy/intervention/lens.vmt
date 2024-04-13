@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$baseTexture" "lambdaplayers\models\m9k\heavy\Intervention\lens_d"
+	"$bumpmap" "lambdaplayers\models\m9k\heavy\Intervention\lens_N"
+	"$translucent" "1"
+
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[0.6 0.8 0.8]"
+	"$envmap" "env_cubemap"
+}

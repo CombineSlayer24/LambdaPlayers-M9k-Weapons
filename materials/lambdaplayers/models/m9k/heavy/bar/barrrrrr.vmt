@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"lambdaplayers\models\m9k\heavy\bar\barrrrrr"
+	"$envmap" "env_cubemap"
+	"$envmapmask" 	"lambdaplayers\models\m9k\heavy\bar\barrrrrr_ref"
+}

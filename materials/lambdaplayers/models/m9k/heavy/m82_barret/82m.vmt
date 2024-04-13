@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"lambdaplayers\models\m9k\heavy\m82_barret\m_82"
+	"$bumpmap" 	"lambdaplayers\models\m9k\heavy\m82_barret\m82_norm"
+	"$halflambert" 	"1"
+ 	"$phong" "1"
+	"$phongexponent" "380"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[1 6 12]"
+	"$phongalbedotint" "1"
+}

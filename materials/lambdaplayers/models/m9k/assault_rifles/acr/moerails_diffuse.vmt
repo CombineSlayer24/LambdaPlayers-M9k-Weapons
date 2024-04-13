@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "lambdaplayers\models\m9k\assault_rifles\acr\MOErails_diffuse"
+	"$nocull" "1"
+}

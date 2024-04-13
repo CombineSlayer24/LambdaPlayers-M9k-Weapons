@@ -31,7 +31,7 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 		OnDeploy = function( self, wepent )
 			wepent.M9KData = {}
 			wepent.M9KData.Damage = fireDamageTbl
-			wepent.M9KData.Spread = 0.0925
+			wepent.M9KData.Spread = 0.08
 			wepent.M9KData.Sound = "lambdaplayers/weapons/m9k/small_arms/p90/fire.wav"
 			wepent.M9KData.RateOfFire = fireRateTbl
 			wepent.M9KData.Animation = ACT_HL2MP_GESTURE_RANGE_ATTACK_SMG1

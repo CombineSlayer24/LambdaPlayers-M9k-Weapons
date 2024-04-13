@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "lambdaplayers\models\m9k\heavy\dbarrel_shotgun\dif"
+	"$bumpmap" "lambdaplayers\models\m9k\heavy\dbarrel_shotgun\spec"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+}

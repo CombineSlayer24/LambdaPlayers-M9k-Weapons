@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "lambdaplayers\models\m9k\assault_rifles\hk_g3\ts_g3"
+	"$bumpmap" "lambdaplayers\models\m9k\assault_rifles\hk_g3\ts_g3_bump"
+	"$phong" "1"
+	"$phongexponent" "45"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[1 8 6]"
+}
