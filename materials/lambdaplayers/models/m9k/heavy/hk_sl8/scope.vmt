@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"lambdaplayers\models\m9k\heavy\hk_sl8\scope"
+	"$bumpmap" 		"lambdaplayers\models\m9k\heavy\hk_sl8\scope_norm"
+	"$nocull" "1"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+}

@@ -1,16 +1,16 @@
 # LambdaPlayers-M9k-Weapons
 
-# NOTICE! This pack is very early work in progress, many weapons are still missing
-
-Adds M9K weapons for LambdaPlayers to use.
+# Beta 0.1
+Adds almost all M9K weapons for LambdaPlayers to use.
 M9K is not required as content is packed in.
 
+After 2 long months of doing this, it's done.
 Some enhancement to models VMT textures has been made, along with some balence tweaks.
 
 Weapons so far that are not yet done;
-- Some SMG's
-- Rifles
-- Shotguns
-- Sniper Rifles
-- Heavy Weapons
-- Sepcial Weapons
+- Speciality Weapons
+
+## :trophy: Credits:
+- [INCONCEIVABLE - M9K](https://steamcommunity.com/id/INCONCEIVABLEINCONCEIVABLE) - Assets
+- [ethanfinamore](https://steamcommunity.com/profiles/76561199232221038) - Helped with some weapons.
+- [YerSoMashy](https://steamcommunity.com/id/erman22) - Code.

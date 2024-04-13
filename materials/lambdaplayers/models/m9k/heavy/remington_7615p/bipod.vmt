@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$bumpmap" 	"lambdaplayers\models\m9k\heavy\remington_7615p\bipod_norm"
+	"$bumpmap" "models\weapons\v_models\remington_patrol_rifle\bipod_norm"
+	
+	"$no_draw" "1"
+}

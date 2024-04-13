@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"lambdaplayers\models\m9k\heavy\hk_sl8\reciever"
+	"$bumpmap" 		"lambdaplayers\models\m9k\heavy\hk_sl8\reciever_n"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+}

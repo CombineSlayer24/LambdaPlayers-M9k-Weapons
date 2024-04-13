@@ -1,0 +1,6 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" 	"lambdaplayers\models\m9k\heavy\remington_870_tact\remi_diffuse"
+	"$bumpmap" 		"lambdaplayers\models\m9k\heavy\remington_870_tact\remi_normal"
+	"$nocull" "1"
+}

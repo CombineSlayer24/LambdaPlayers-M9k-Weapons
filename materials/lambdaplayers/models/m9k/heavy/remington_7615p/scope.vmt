@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$baseTexture" 	"lambdaplayers\models\m9k\heavy\remington_7615p\scope"
+        "$envmap" "env_cubemap"
+	"$envmapmask" 	"lambdaplayers\models\m9k\heavy\remington_7615p\scope_ref"
+}
