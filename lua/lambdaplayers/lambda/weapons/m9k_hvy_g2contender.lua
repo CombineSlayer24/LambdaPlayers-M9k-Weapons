@@ -26,7 +26,7 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 		reloadsounds = { 
 			{ 0.336, "lambdaplayers/weapons/m9k/heavy/g2contender/open.mp3" },
 			{ 0.75, "lambdaplayers/weapons/m9k/heavy/g2contender/bullet_out.mp3" },
-			{ 1.25, "lambdaplayers/weapons/m9k/heavy/g2contender/tink" .. LambdaRNG( 4 ) .. ".mp3" },
+			{ 1.25, "lambdaplayers/weapons/m9k/heavy/g2contender/tink" .. LambdaRNG( 1, 4 ) .. ".mp3" },
 			{ 1.65, "lambdaplayers/weapons/m9k/heavy/g2contender/bullet_in.mp3" },
 			{ 2.25, "lambdaplayers/weapons/m9k/heavy/g2contender/close.mp3" },
 			{ 2.5, "lambdaplayers/weapons/m9k/heavy/g2contender/cock2.mp3" },
