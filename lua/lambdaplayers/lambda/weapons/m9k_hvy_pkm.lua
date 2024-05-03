@@ -44,7 +44,7 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 		speedmultiplier = 0.75,
 
 		OnReload = function( self, wepent )
-			if self.l_Clip > 99 then return true end
+			if self.l_Clip > 50 then return true end
 		end,
 
 		OnDeploy = function( self, wepent )

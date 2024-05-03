@@ -2,7 +2,7 @@ local IsValid = IsValid
 local coroutine_wait = coroutine.wait
 
 local fireDamageTbl = { 4, 10 }
-local fireRateTbl = { 0.64, 1.60 }
+local fireRateTbl = { 1.2, 1.60 }
 local deploySnds = {
 	{ 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" },
 	{ 0.4, "lambdaplayers/weapons/m9k/heavy/1887winchester/cock.mp3" },
@@ -70,7 +70,6 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 			wepent.M9KData.Spread = 0.048
 			wepent.M9KData.Pellets = 10
 			wepent.M9KData.Sound = "lambdaplayers/weapons/m9k/heavy/dbarrel_shotgun/fire.wav"
-			--wepent.M9KData.Sound = "lambdaplayers/weapons/m9k/heavy/1887winchester/fire.wav" -- Lever is too loud
 			wepent.M9KData.RateOfFire = fireRateTbl
 			wepent.M9KData.Animation = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 			wepent.M9KData.DeploySound = deploySnds
