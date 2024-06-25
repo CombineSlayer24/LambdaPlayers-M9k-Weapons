@@ -6,20 +6,19 @@ local deploySnds = {
 }
 
 local function SwitchFireMode( self, wepent )
-    local isFull = wepent.FireMode == "Full"
-    local fireMode = isFull and "Semi" or "Full"
-    local holdType = isFull and "revolver" or "pistol"
-    local useAnim = self:LookupSequence( "flinch_shoulder_l" )
+	local isFull = wepent.FireMode == "Full"
+	local fireMode = isFull and "Semi" or "Full"
+	local holdType = isFull and "revolver" or "pistol"
+	local useAnim = self:LookupSequence( "flinch_shoulder_l" )
 
-    wepent.M9KData.RateOfFire = isFull and fireRateTbl_Semi or fireRateTbl
-    wepent.FireMode = fireMode
+	wepent.M9KData.RateOfFire = isFull and fireRateTbl_Semi or fireRateTbl
+	wepent.FireMode = fireMode
 
-    wepent:EmitSound( "Weapon_AR2.Empty", 70 )
-    
+	wepent:EmitSound( "Weapon_AR2.Empty", 70 )
+	
 	self.l_HoldType = holdType
-   	--PrintMessage( HUD_PRINTTALK, "Switched to " .. fireMode .. " FireMode" )
 
-    if useAnim > 0 then self:AddGestureSequence( useAnim, true ) end
+	if useAnim > 0 then self:AddGestureSequence( useAnim, true ) end
 end
 
 table.Merge( _LAMBDAPLAYERSWEAPONS, {
@@ -57,7 +56,6 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 			local isSemi = LambdaRNG( 1, 3 ) == 1
 			wepent.M9KData.RateOfFire = isSemi and fireRateTbl_Semi or fireRateTbl
 			wepent.FireMode = isSemi and "Semi" or "Full"
-			--PrintMessage( HUD_PRINTTALK, "Spawned with " .. wepent.FireMode .. " FireMode" )
 
 			if isSemi then self.l_HoldType = "revolver" else self.l_HoldType = "pistol" end
 

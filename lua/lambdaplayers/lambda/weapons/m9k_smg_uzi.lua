@@ -1,23 +1,17 @@
 local fireDamageTbl = { 8, 20 }
 local fireRateTbl = { 0.096, 0.384 }
 local fireRateTbl_Semi = { 0.25, 0.6 }
-local deploySnds = {
-	{ 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" }
-}
+local deploySnds = { { 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" } }
 
 local function SwitchFireMode( self, wepent )
 	local isFull = wepent.FireMode == "Full"
 	local fireMode = isFull and "Semi" or "Full"
-	--local holdType = isFull and "pistol" or "ar2"
 	local useAnim = self:LookupSequence( "flinch_shoulder_l" )
 
 	wepent.M9KData.RateOfFire = isFull and fireRateTbl_Semi or fireRateTbl
 	wepent.FireMode = fireMode
-	--self.l_HoldType = holdType
 
 	wepent:EmitSound( "Weapon_AR2.Empty", 70 )
-
-	--PrintMessage( HUD_PRINTTALK, "Switched to " .. fireMode .. " FireMode" )
 
 	-- Simulate switching fire modes
 	if useAnim > 0 then self:AddGestureSequence( useAnim, true ) end
@@ -35,7 +29,7 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 		clip = 32,
 		islethal = true,
 		attackrange = 1800,
-		keepdistance = 700,
+		keepdistance = 650,
 
 		reloadtime = 2,
 		reloadanim = ACT_HL2MP_GESTURE_RELOAD_SMG1,
@@ -58,7 +52,6 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 			local isSemi = LambdaRNG( 1, 3 ) == 1
 			wepent.M9KData.RateOfFire = isSemi and fireRateTbl_Semi or fireRateTbl
 			wepent.FireMode = isSemi and "Semi" or "Full"
-			--PrintMessage( HUD_PRINTTALK, "Spawned with " .. wepent.FireMode .. " FireMode" )
 
 			LAMBDA_M9K:InitializeWeapon( self, wepent )
 		end,
