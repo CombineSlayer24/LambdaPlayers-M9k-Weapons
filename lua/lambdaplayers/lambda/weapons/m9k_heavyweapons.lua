@@ -11,7 +11,7 @@ local deploySnds_ARESS = {
 	{ 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" }
 }
 
-local fireDamageTbl_WIN87 = { 4, 10 }
+local fireDamageTbl_WIN87 = { 7, 17 }
 local fireRateTbl_WIN87 = { 1.2, 1.60 }
 local deploySnds_WIN87 = {
 	{ 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" },
@@ -19,7 +19,7 @@ local deploySnds_WIN87 = {
 	{ 0.6, "lambdaplayers/weapons/m9k/heavy/1887winchester/decock.mp3" }
 }
 
-local fireDamageTbl_AW50 = { 28, 50 }
+local fireDamageTbl_AW50 = { 28, 55 }
 local fireRateTbl_AW50 = { 1.0, 3.0 }
 local deploySnds_AW50 = {
 	{ 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" },
@@ -48,7 +48,7 @@ local deploySnds_BM98B = {
 	{ 0.52, "lambdaplayers/weapons/m9k/heavy/m98/bolt.mp3" }
 }
 
-local fireDamageTbl_BROWNAUTO = { 3, 7 }
+local fireDamageTbl_BROWNAUTO = { 3, 9 }
 local fireRateTbl_BROWNAUTO = { 0.36, 1.64 }
 local deploySnds_BROWNAUTO = { { 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" } }
 
@@ -67,14 +67,14 @@ local deploySnds_DRAGNOVSVD = {
 	{ 0.7, "lambdaplayers/weapons/m9k/heavy/svd/boltforward.mp3" }
 }
 
-local fireDamageTbl_DRAGNOVSVU = { 12, 36 }
+local fireDamageTbl_DRAGNOVSVU = { 10, 40 }
 local fireRateTbl_DRAGNOVSVU = { 0.36, 0.96 }
 local deploySnds_DRAGNOVSVU = {
 	{ 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" },
 	{ 0.52, "lambdaplayers/weapons/m9k/heavy/svu/boltrack.mp3" },
 }
 
-local fireDamageTbl_FG42 = { 8, 24 }
+local fireDamageTbl_FG42 = { 8, 26 }
 local fireRateTbl_FG42 = { 0.065, 0.25 }
 local deploySnds_FG42 = {
 	{ 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" },
@@ -104,14 +104,14 @@ local deploySnds_INTVEN = {
 	{ 0.8, "lambdaplayers/weapons/m9k/heavy/intervention/bolt.mp3" },
 }
 
-local fireDamageTbl_ITHACA = { 4, 10 }
+local fireDamageTbl_ITHACA = { 4, 12 }
 local fireRateTbl_ITHACA = { 0.8, 1.6 }
 local deploySnds_ITHACA = {
 	{ 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" },
 	{ 0.4, "lambdaplayers/weapons/m9k/heavy/ithaca_m37/pump.mp3" }
 }
 
-local fireDamageTbl_JACKHMR = { 4, 10 }
+local fireDamageTbl_JACKHMR = { 5, 11 }
 local fireRateTbl_JACKHMR = { 0.24, 0.96 }
 local deploySnds_JACKHMR = {
 	{ 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" },
@@ -141,7 +141,7 @@ local deploySnds_M60 = {
 	{ 0.68, "lambdaplayers/weapons/m9k/heavy/m60/boltrel.mp3" }
 }
 
-local fireDamageTbl_M249 = { 8, 12 }
+local fireDamageTbl_M249 = { 8, 14 }
 local fireRateTbl_M249 = { 0.07, 0.28 }
 local deploySnds_M249 = {
 	{ 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" },
@@ -149,7 +149,7 @@ local deploySnds_M249 = {
 	{ 0.68, "lambdaplayers/weapons/m9k/heavy/m249_saw/boltrel.mp3" }
 }
 
-local fireDamageTbl_M590 = { 4, 8 }
+local fireDamageTbl_M590 = { 4, 10 }
 local fireRateTbl_M590 = { 0.8, 2.0 }
 local deploySnds_M590 = {
 	{ 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" },
@@ -225,6 +225,13 @@ local fireRateTbl_WIN97 = { 0.8, 1.6 }
 local deploySnds_WIN97 = {
 	{ 0, "lambdaplayers/weapons/m9k/small_arms/draw_pullout.mp3" },
 	{ 0.4, "lambdaplayers/weapons/m9k/heavy/1897trench/pump.mp3" }
+}
+
+local fireDamageTbl_VULKAN = { 5, 20 }
+local fireRateTbl_VULKAN = { 0.095, 0.22 }
+local deploySnds_VULKAN = {
+	{ 0, "lambdaplayers/weapons/m9k/heavy/minigun/clipout.mp3" },
+	{ 0.9, "lambdaplayers/weapons/m9k/heavy/minigun/boltrack.mp3" }
 }
 -----------------------------------------------------------------------------------
 -- End OF Locals
@@ -1295,7 +1302,7 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 			{ 4, "lambdaplayers/weapons/m9k/heavy/minigun/boltrack.mp3" }
 		},
 
-		speedmultiplier = 0.5,
+		speedmultiplier = 0.55,
 
 		OnReload = function( self, wepent )
 			if self.l_Clip > 150 then return true end
@@ -1304,7 +1311,7 @@ table.Merge( _LAMBDAPLAYERSWEAPONS, {
 		OnDeploy = function( self, wepent )
 			wepent.M9KData = {}
 			wepent.M9KData.Damage = fireDamageTbl_VULKAN
-			wepent.M9KData.Spread = 0.15
+			wepent.M9KData.Spread = 0.11
 			wepent.M9KData.Sound = "lambdaplayers/weapons/m9k/heavy/minigun/fire.wav"
 			wepent.M9KData.RateOfFire = fireRateTbl_VULKAN
 			wepent.M9KData.Animation = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
